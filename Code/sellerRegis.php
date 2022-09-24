@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sellers</title>
-    <link rel="stylesheet" href="style/sellerRegis.css">
+    <link rel="stylesheet" href="../style/sellerRegis.css">
 </head>
 <body>
     <div id="top">
         <header><p>Inventory++</p></header>
-        <nav><a href="index.php">Home</a></nav>
+        <nav><a href="../index.php">Home</a></nav>
     </div>
     <div class="main-box">
         <div class="headings"><h3>Seller Registration</h3></div>

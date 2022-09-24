@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sellers</title>
-    <link rel="stylesheet" href="../style/seller.css">
+    <link rel="stylesheet" href="style/seller.css">
 </head>
 <body>
     <?php

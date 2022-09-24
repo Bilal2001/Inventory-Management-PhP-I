@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+html {
+    min-width: 1000px;
+}
+
+body {
+    background-color: #B5B5B5;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+#top {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+header {
+    background-color: #8E44AD;
+}
+
+header p {
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    color: black;
+}
+
+nav {
+    background-color: #8E44AD;
+    border-color: black;
+    border-width: 2px;
+    text-align: center;
+    border-style: ridge;
+}
+
+a {
+    padding: 15px;
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+}
+
+#main-box {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 700px;
+    flex-wrap: wrap;
+    margin-top: 10%;
+    margin-left: 30%;
+}
+
+#main-box div {
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    margin: 30px;
+    justify-content: center;
+}
+
+#seller {
+    background-color: rgba(255, 255, 0, 0.945);
+    width: 250px;
+}
+
+#prod {
+    background-color: orange;
+    width: 250px;
+}
+
+#sold {
+    background-color: rgba(165, 42, 42, 0.61);
+    width: 250px;
+    text-align: center;
+}
+
+#ltable {
+    background-color: rgba(255, 0, 0, 0.612);
+    width: 250px;
+}
+
+footer {
+    background-color: #8E44AD;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-color: black;
+    border-width: 2px;
+    text-align: center;
+    border-style: ridge;
+    align-self: flex-start;
+    padding: 15px;
+}

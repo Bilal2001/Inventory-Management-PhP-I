@@ -14,8 +14,8 @@ Youtube : https://www.youtube.com/watch?v=081xcYZKOZA
 <ol>
     <li> 
         <p> Open XAMP Command Center and turn on Apache Server and MySQL Database. </p>
-        <img src = "">
-        <img src = "">
+        <img src = "https://github.com/Bilal2001/Inventory-Management-PhP-I/blob/master/Docs/imgsGIt/openXAMP.jpeg" style = "height:200px; width:350px;">
+        <img src = "https://github.com/Bilal2001/Inventory-Management-PhP-I/blob/master/Docs/imgsGIt/startStuff.jpeg" style = "height:200px; width:350px;">
     </li>
     <li>
         <p> Download the Repository in the "htdocs" Directory. The address of the Directory will be like :<br>
@@ -29,12 +29,12 @@ Youtube : https://www.youtube.com/watch?v=081xcYZKOZA
         <ol> 
             <li> Line 2 : Put your respective USER_NAME from the XAMP process. </li>
             <li> Line 3 : Put your respective PASSWORD from the XAMP process. </li>
-            <img src = "">
+            <img src = "https://github.com/Bilal2001/Inventory-Management-PhP-I/blob/master/Docs/imgsGIt/changeCon.jpeg" style = "height:400px; width:700px;">
         </ol>
     </li>
     <li>
         <p> Now go to the following link and start using the project. Thge first page will ask you if you have used this project before. This is for the Initial Database set-up. So answer accordingly. </p>
-        <img src = "">
+        <img src = "https://github.com/Bilal2001/Inventory-Management-PhP-I/blob/master/Docs/imgsGIt/enjoy.jpeg" style = "height:400px; width:700px;">
     </li>
 </ol>
 

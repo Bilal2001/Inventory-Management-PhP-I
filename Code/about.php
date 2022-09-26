@@ -10,7 +10,7 @@
 <body>
     <div id="top">
         <header><p>Inventory++</p></header>
-        <nav><a href="../index.php">Home</a></nav>
+        <nav><a href="home.php">Home</a></nav>
     </div>
     <div id="main-box" style="align-items:centre; margin-left:40%; margin-top:18%;">
             <div id = "seller"><a href="../Docs/resume.pdf">Resume</a></div>

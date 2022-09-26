@@ -28,7 +28,7 @@
     ?>
     <div id="top">
         <header><p>Inventory++</p></header>
-        <nav><a href="../index.php">Home</a></nav>
+        <nav><a href="home.php">Home</a></nav>
         <div class="headings"><h3>Sellers</h3></div>
     </div>
     <div class="main-box">
@@ -60,7 +60,7 @@
                                 $getProd = "SELECT P.`Name` AS `Name` FROM products AS P, registered AS R WHERE R.PID = P.ID AND R.VID = '".$row["ID"]."'";
                                 $resP = $con->query($getProd);
                                 echo "<td>";
-                                if($resP->num_rows >= 0) {
+                                if($resP->num_rows > 0) {
                                     while($rowP = $resP->fetch_assoc()) {
                                         echo "".$rowP["Name"]."  ";
                                     }
@@ -71,6 +71,10 @@
                                 echo "</tr>";
                                 $i++;
                             }
+                        }else {
+                            echo "<tr>";
+                            echo "<td>NO VENDORS REGISTERED</td>";
+                            echo "</tr>";
                         }
                     }else {
                         echo "Connect failed: ". $con -> error;

@@ -10,7 +10,7 @@
 <body>
     <div id="top">
         <header><p>Inventory++</p></header>
-        <nav><a href="../index.php">Home</a></nav>
+        <nav><a href="home.php">Home</a></nav>
     </div>
     <div class="main-box">
         <div class="headings"><h3>Seller Registration</h3></div>

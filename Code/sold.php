@@ -30,7 +30,7 @@
     ?>
     <div id="top">
         <header><p>Inventory++</p></header>
-        <nav><a href="../index.php">Home</a></nav>
+        <nav><a href="home.php">Home</a></nav>
         <div class="headings"><h3 style="margin-left:5px; color: rgba(165, 42, 42, 0.61); border-bottom: 2px solid rgba(165, 42, 42, 0.61);">Stock Out</h3></div>
     </div>
     <div class="main-box">
@@ -66,6 +66,10 @@
                                 echo "</tr>";
                                 $i++;
                             }
+                        }else {
+                            echo "<tr>";
+                            echo "<td>NO STOCK SOLD</td>";
+                            echo "</tr>";
                         }
                     }else {
                         echo "Connect failed: ". $con -> error;

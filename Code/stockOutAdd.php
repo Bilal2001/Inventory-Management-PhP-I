@@ -10,7 +10,7 @@
 <body>
     <div id="top">
         <header><p>Inventory++</p></header>
-        <nav><a href="../index.php">Home</a></nav>
+        <nav><a href="home.php">Home</a></nav>
     </div>
     <div class="main-box">
         <div class="headings"><h3 style="margin-left:5px; color: rgba(165, 42, 42, 0.61); border-bottom: 2px solid rgba(165, 42, 42, 0.61);">Adding Stock Out Entry</h3></div>
@@ -30,6 +30,8 @@
                                 while($row = $res->fetch_assoc()) {
                                     echo "<div><h4 style=\"color:white\">".$row["Name"]." ( ".$row["quantity"]." ): <input type=\"radio\" name=\"prodID\" value=".$row["ID"]." required></h4></div>";
                                 }
+                            }else {
+                                echo "<div><h4 style=\"color:orange\">NO PRODUCTS IN STOCK</h4></div>";
                             }
                         }else {
                             echo "Connect failed: ". $con -> error;

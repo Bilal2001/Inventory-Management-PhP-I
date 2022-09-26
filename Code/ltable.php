@@ -10,7 +10,7 @@
 <body>
     <div id="top">
         <header><p>Inventory++</p></header>
-        <nav><a href="../index.php">Home</a></nav>
+        <nav><a href="home.php">Home</a></nav>
         <div class="headings"><h3 style="margin-left:5px; color: red; border-bottom: 2px solid red;">Live Products</h3></div>
     </div>
     <div class="main-box">
@@ -40,6 +40,10 @@
                                 echo "</tr>";
                                 $i++;
                             }
+                        }else {
+                            echo "<tr>";
+                            echo "<td>NO STOCK AVAILABLE</td>";
+                            echo "</tr>";
                         }
                     }else {
                         echo "Connect failed: ". $con -> error;

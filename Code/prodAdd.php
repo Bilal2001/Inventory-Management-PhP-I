@@ -10,7 +10,7 @@
 <body>
     <div id="top">
         <header><p>Inventory++</p></header>
-        <nav><a href="../index.php">Home</a></nav>
+        <nav><a href="home.php">Home</a></nav>
     </div>
     <div class="main-box">
         <div class="headings"><h3 style="margin-left:5px; color: orange; border-bottom: 2px solid orange;">Adding Product</h3></div>

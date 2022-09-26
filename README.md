@@ -37,14 +37,3 @@ Youtube : https://www.youtube.com/watch?v=081xcYZKOZA
         <img src = "https://github.com/Bilal2001/Inventory-Management-PhP-I/blob/master/Docs/imgsGIt/enjoy.jpeg" style = "height:400px; width:700px;">
     </li>
 </ol>
-
-
- 
-
-
-
-
-
-
-
-

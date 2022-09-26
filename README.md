@@ -1,7 +1,7 @@
 # Inventory-Management-PhP-I
 First PhP Project of Inventory Management
 <br>
-<img src = "https://github.com/Bilal2001/Inventory-Management-PhP-I/blob/master/Docs/imgsGIt/home.jpeg" style = "height:200px; width:350px;">
+<img src = "https://github.com/Bilal2001/Inventory-Management-PhP-I/blob/master/Docs/imgsGIt/home.jpeg" style = "height:400px; width:700px;">
 
 ## Step-1:
 <p> Hi everyone, the first step involves installing XAMP. Follow the below link and video to install and set-up XAMP on your device: </p>

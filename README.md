@@ -1,5 +1,5 @@
 # Inventory-Management-PhP-I
-First PhP Project of Inventory Management
+<p> First PhP Project of Inventory Management </p>
 <br>
 <img src = "https://github.com/Bilal2001/Inventory-Management-PhP-I/blob/master/Docs/imgsGIt/home.jpeg" style = "height:400px; width:700px;">
 

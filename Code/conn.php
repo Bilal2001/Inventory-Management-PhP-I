@@ -1,7 +1,7 @@
 <?php
     $dbuser = "root";
     $dbpass = "";
-    $db = "inventorymanage101";
+    $db = "inventorymanage";
     function OpenCon()
     {
         $conn = new mysqli('localhost', $GLOBALS['dbuser'], $GLOBALS['dbpass'], $GLOBALS['db']);

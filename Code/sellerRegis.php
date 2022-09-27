@@ -33,7 +33,8 @@
                             $res = $con->query($q);
                             if($res->num_rows > 0) {
                                 while($row = $res->fetch_assoc()) {
-                                    echo "<div><h4 style=\"color:white\">".$row["Name"]." : <input type=\"checkbox\" name=\"prod[]\" value=".$row["Name"]."></h4></div>";
+                                    $nameP = $row["Name"];
+                                    echo "<div><h4 style=\"color:white\">".$nameP." : <input type=\"checkbox\" name=\"prod[]\" value=".$nameP."></h4></div>";
                                 }
                             }
                         }else {

@@ -32,6 +32,7 @@
             }
         }
         
+        $db = "inventorymanage";
         $con = new mysqli('localhost', $GLOBALS['dbuser'], $GLOBALS['dbpass'], 'inventorymanage101');
         
         $checkP = "SHOW TABLES LIKE 'products'";
